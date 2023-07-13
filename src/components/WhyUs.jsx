@@ -4,7 +4,7 @@ const WhyUs = () => {
   return (
     <div>
     <div className="flex flex-col lg:mx-30 md:flex-row m-4 md:m-8 lg:m-32">
-      <img src="../public/WhyUs.webp" alt="Image of kitchen and air conditioning unit" className="w-full md:w-1/4 lg:w-1/3 mr-0 md:mr-8 lg:mr-12  " />
+      <img src="/WhyUs.webp" alt="Image of kitchen and air conditioning unit" className="w-full md:w-1/4 lg:w-1/3 mr-0 md:mr-8 lg:mr-12  " />
       <div>
         <h1 className="font-300 underline text-3xl my-5">Why us?</h1>
         <p className="font-light text-xl mt-4">
