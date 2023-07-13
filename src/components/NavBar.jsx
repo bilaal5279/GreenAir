@@ -11,7 +11,7 @@ const NavBar = () => {
     <nav className="fixed w-full bg-white z-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center p-4">
         <div className="flex items-center">
-          <img src="./src/assets/qt=q_95.webp" alt="Greenair logo" className="h-12 pr-3" />
+          <img src="../public/qt=q_95.webp" alt="Greenair logo" className="h-12 pr-3" />
           <h1 className="text-3xl font-semibold text-bold">GREENAIR</h1>
         </div>
         <div className="md:hidden">

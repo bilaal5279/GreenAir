@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
   return (
     <div className="relative h-screen">
-      <img src="./src/assets/Hero.webp" alt="Hero Image" className="w-full h-full object-cover object-center" />
+      <img src="../public/Hero.webp" alt="Hero Image" className="w-full h-full object-cover object-center" />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
         <h1 className='font-bold text-4xl sm:text-5xl md:text-6xl'>
           <span>GREENAIR AIR CONDITIONING</span>
