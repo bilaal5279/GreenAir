@@ -21,12 +21,12 @@ const Testimonials = () => {
         <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Great product with excellent support</h3>
-            <p className="my-4">"We highly recommend Green Air for their top-notch air conditioning services. They promptly responded to our service request and quickly diagnosed the issue with our commercial HVAC system. The repair was carried out efficiently, and their team went above and beyond to ensure our business operations were minimally disrupted. Green Air's dedication to customer satisfaction is truly commendable."</p>
+            <p className="my-4">"We highly recommend Green Air for their top-notch air conditioning services. They promptly responded to our service request and quickly diagnosed the issue with our commercial HVAC system. The repair was carried out efficiently, and their team went above and beyond to ensure our business operations were minimally disrupted."</p>
           </blockquote>
           <figcaption className="flex items-center justify-center space-x-3">
-            <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/alex-jones.png" alt="profile picture" />
+            <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="profile picture" />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Alex Jones</div>
+              <div>Robota</div>
               <div className="text-sm text-gray-500 dark:text-gray-400">Customer</div>
             </div>
           </figcaption>
@@ -39,9 +39,9 @@ const Testimonials = () => {
             <p className="my-4">"Choosing Green Air for our air conditioning installation was the best decision we made. Their knowledgeable team guided us through the process, helping us select the most suitable system for our home. The installation was completed seamlessly, and the team left our property clean and tidy. We couldn't be happier with the results”</p>
           </blockquote>
           <figcaption className="flex items-center justify-center space-x-3">
-            <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/alex-jones.png" alt="profile picture" />
+            <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture" />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Emma and James</div>
+              <div>Joseph</div>
               <div className="text-sm text-gray-500 dark:text-gray-400">Commercial Customer</div>
             </div>
           </figcaption>

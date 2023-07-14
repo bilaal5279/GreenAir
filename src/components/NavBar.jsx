@@ -22,16 +22,13 @@ const NavBar = () => {
             <Link to="/" className="hover:underline hover:opacity-50">Home</Link>
           </li>
           <li>
-            <Link to="/" className="hover:underline hover:opacity-50">Why Us</Link>
+            <Link to="/Services" className="hover:underline hover:opacity-50">Services</Link>
           </li>
           <li>
-            <Link to="/" className="hover:underline hover:opacity-50">Services</Link>
+            <Link to="/Work" className="hover:underline hover:opacity-50">Our Work</Link>
           </li>
           <li>
-            <Link to="/" className="hover:underline hover:opacity-50">Our Work</Link>
-          </li>
-          <li>
-            <Link to="/" className="hover:underline hover:opacity-50">Contact</Link>
+            <Link to="/Contact" className="hover:underline hover:opacity-50">Contact</Link>
           </li>
         </ul>
       </div>
