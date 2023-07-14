@@ -14,7 +14,7 @@ const MenuItems = ({showMenu,active}) => {
             <li ><Link to ="/" className="hover:underline">Home</Link></li>
             <li><Link to ="/services" className="hover:underline">Services</Link></li>
             <li><Link to ="/Work" className="hover:underline">Our work</Link></li>
-            <li><Link to ="/" className="hover:underline">Contact</Link></li>
+            <li><Link to ="/Contact" className="hover:underline">Contact</Link></li>
           </ul>
           </div>
   )
