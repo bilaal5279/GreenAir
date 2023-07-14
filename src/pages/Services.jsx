@@ -1,6 +1,6 @@
 import App from '../App';
 import ContactSection from '../components/ContactSection';
-import OurServices from '../components/Ourservices';
+import OurServices from '../components/OurServices';
 
 function Services() {
   return (
