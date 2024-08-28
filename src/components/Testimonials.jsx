@@ -1,48 +1,51 @@
 import React from 'react';
+
 const Testimonials = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-4 md:mx-8 lg:mx-12" style={{ gridAutoRows: '1fr' }}>
-      <div className=" rounded-lg shadow-sm dark:border-gray-700">
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-8 lg:px-12 mx-auto max-w-7xl">
+      <div className="rounded-lg shadow-lg dark:border-gray-700 mb-6 mt-6 mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl flex flex-col" style={{ boxShadow: '0 -4px 8px rgba(0, 0, 0, 0.2)', minHeight: '20rem' }}>
+        <figure className="flex flex-col flex-grow justify-between p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Expert Installation</h3>
-            <p className="my-4">“Green Air exceeded our expectations with their exceptional service. From the initial consultation to the final installation, their team demonstrated professionalism, expertise, and attention to detail. Our air conditioning system works flawlessly, and we couldn't be happier with the results. I highly reccomend GreenAir for anyone with a commercial property.”</p>
+            <p className="my-4">“Asif and his team recently installed my air conditioning system. Their professionalism was outstanding, and the quality of service they provided was excellent. The team was very friendly and took the time to explain everything in detail.”</p>
           </blockquote>
           <figcaption className="flex items-center justify-center space-x-3">
-            <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="profile picture" />
+          <img className="rounded-full w-9 h-9" src="https://lh3.googleusercontent.com/a/ACg8ocKpfekta2SNy9nE60yqbaRaoxoMQKrvDGNtGYC8xfJyjM82Jg=w60-h60-p-rp-mo-br100" alt="profile picture" />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Bonnie Green</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">Buisness Owner</div>
+              <div>Kelly</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Residential Installation</div>
             </div>
           </figcaption>
         </figure>
       </div>
-      <div className=" rounded-lg shadow-sm dark:border-gray-700">
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
+      <div className="rounded-lg shadow-lg dark:border-gray-700 mb-6 mt-6 mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl flex flex-col" style={{ boxShadow: '0 -4px 8px rgba(0, 0, 0, 0.2)', minHeight: '20rem' }}>
+        <figure className="flex flex-col flex-grow justify-between p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Great product with excellent support</h3>
-            <p className="my-4">"We highly recommend Green Air for their top-notch air conditioning services. They promptly responded to our service request and quickly diagnosed the issue with our commercial HVAC system. The repair was carried out efficiently, and their team went above and beyond to ensure our business operations were minimally disrupted."</p>
+            <p className="my-4">"Very pleased with my new ac system. Asif explained everything properly and in detail. His team on installation day were also very good. Installation was very smooth, clean and tidy. Would recommend. Book well in advance as he gets busy.
+            "</p>
           </blockquote>
           <figcaption className="flex items-center justify-center space-x-3">
-            <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="profile picture" />
+            <img className="rounded-full w-9 h-9" src="https://lh3.googleusercontent.com/a-/ALV-UjXX2iZ3KVJ9eSLSep--0Fh6ORmTKPQBYiY9ibr7gi8Gh2S09E75=w60-h60-p-rp-mo-ba3-br100" alt="profile picture" />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Robota</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">Customer</div>
+              <div>Shuhel Hussain</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Residential Installation</div>
             </div>
           </figcaption>
         </figure>
       </div>
-      <div className=" rounded-lg shadow-sm dark:border-gray-700">
-        <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
+      <div className="rounded-lg shadow-lg dark:border-gray-700 mb-6 mt-6 mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl flex flex-col" style={{ boxShadow: '0 -4px 8px rgba(0, 0, 0, 0.2)', minHeight: '20rem' }}>
+        <figure className="flex flex-col flex-grow justify-between p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">A Perfect Choice</h3>
-            <p className="my-4">"Choosing Green Air for our air conditioning installation was the best decision we made. Their knowledgeable team guided us through the process, helping us select the most suitable system for our home. The installation was completed seamlessly, and the team left our property clean and tidy. We couldn't be happier with the results”</p>
+            <p className="my-4">"I had a great experience with Asif (Green Air)  during the installation of my AC units. His professionalism and helpful demeanor stood out. Asif demonstrated expertise, ensuring a smooth process. Overall, my satisfaction with his service is very good. I would highly recommend him
+            ”</p>
           </blockquote>
           <figcaption className="flex items-center justify-center space-x-3">
-            <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="profile picture" />
+            <img className="rounded-full w-9 h-9" src="https://lh3.googleusercontent.com/a-/ALV-UjVURJRjVcVOH94xbaOn_xHwzph_iopngL1aQkwtw-ssE9YAUtI=w60-h60-p-rp-mo-br100" alt="profile picture" />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Joseph</div>
-              <div className="text-sm text-gray-500 dark:text-gray-400">Commercial Customer</div>
+              <div>Eram Farooq</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Residential Installation</div>
             </div>
           </figcaption>
         </figure>

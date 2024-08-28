@@ -3,6 +3,7 @@ import WhyUs from '../components/WhyUs';
 import Testimonials from '../components/Testimonials';
 import ContactSection from '../components/ContactSection';
 import App from '../App';
+import Footer from '../components/Footer';
 
 function Landing() {
   return (
@@ -12,6 +13,7 @@ function Landing() {
     <WhyUs/>
     <Testimonials/>
     <ContactSection/>
+    <Footer/>
     </>
   );
 }

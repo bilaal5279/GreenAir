@@ -1,33 +1,63 @@
+import React, { useEffect, useRef, useState } from 'react';
+
 const WhyUs = () => {
+  const cardRefs = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    // Observe the elements
+    cardRefs.current.forEach((card) => {
+      if (card) observer.observe(card);
+    });
+
+    return () => {
+      // Cleanup function to unobserve elements
+      cardRefs.current.forEach((card) => {
+        if (card) observer.unobserve(card);
+      });
+    };
+  }, []);
+
   return (
-    <div>
-      <div className="flex flex-col md:flex-row md:mx-30 m-4 md:m-8 lg:m-32">
-        <img
-          src="/WhyUs.webp"
-          alt="Image of kitchen and air conditioning unit"
-          className="w-full md:w-1/4 lg:w-1/3 mx-auto mb-4 md:mb-0"
-        />
-        <div className="text-center md:text-left md:flex md:flex-col md:justify-center md:ml-8">
-          <h1 className="font-300 underline text-3xl my-5">Why us?</h1>
-          <p className="font-light text-xl mt-4">
-            With over 30+ years of experience in the Air Conditioning sector, we pride ourselves in offering a professional and trustworthy service around the Birmingham area.
-          </p>
-          <p className="font-light text-xl mt-4">
-            We have carried out many installs in both residential and commercial settings, offering a friendly service bespoke to each customer’s specific needs.
-          </p>
-          <p className="font-light text-xl mt-4">
-            Our main ethos is not only meeting but exceeding client’s expectations, so that we can maintain relationships and continue to deliver successful operations.
-          </p>
-          <p className="font-light text-xl mt-4">
-            All our staff and engineers are fully trained and kept up to date with new training to ensure we are always maintaining, and even improving, the quality and efficiency of the service and reputation we strive to provide.
-          </p>
-          <p className="font-light text-xl mt-4">
-            No matter how big or small the job may be, we aim to provide the best results, giving you peace of mind for your air conditioning needs.
-          </p>
-        </div>
+    <section className="min-h-screen text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
+      <span className="text-black text-lg max-w-lg mx-auto mb-2 capitalize flex items-center justify-center">
+        Why Choose Us
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="text-black ml-3 w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+        </svg>
+      </span>
+      <h1 className="text-black text-4xl md:text-5xl xl:text-6xl font-semibold max-w-3xl mx-auto mb-16 leading-snug">
+        Experience, Quality and Trust You Can Count On
+      </h1>
+      <div className="grid-offer bg-white text-left grid sm:grid-cols-2 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
+        {[
+          { title: "Expert Installation", content: "With years of hands-on experience serving Birmingham and the West Midlands, GreenAir ensures exceptional HVAC installation services." },
+          { title: "Quality Assurance", content: "Our Birmingham-based team is fully trained in the latest HVAC technologies, ensuring top-notch service quality every time." },
+          { title: "Tailored Solutions", content: "Whether you require a new installation, a system upgrade, or routine maintenance, we provide personalized services that meet the demands of Birmingham’s diverse climate." },
+          { title: "Client Satisfaction", content: "Customer satisfaction is at the core of everything we do. We go the extra mile to exceed expectations, building lasting relationships with our clients." }
+        ].map((card, index) => (
+          <div
+            key={index}
+            className="card shadow-lg dark:border-gray-700 p-10 relative"
+            ref={(el) => (cardRefs.current[index] = el)}
+          >
+            <div className="circle hidden md:block"></div>
+            <div className="relative lg:pr-52">
+              <h2 className="capitalize text-black mb-4 text-2xl xl:text-3xl font-semibold">{card.title}</h2>
+              <p className="text-gray-700">{card.content}</p>
+            </div>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
-}
+};
 
 export default WhyUs;

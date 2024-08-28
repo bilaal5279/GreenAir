@@ -12,14 +12,22 @@ const Hero = () => {
         </h1>
         <h2 className='font-normal text-xl sm:text-2xl mt-5'>Reliable Comfort, Birmingham's Choice</h2>
         <div className='flex flex-col sm:flex-row justify-center mt-10'>
-          <Link to ="/contact">
-          <button type="button" className="text-black bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-lg sm:text-2xl px-8 sm:px-12 lg:px-16 py-3 sm:py-5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-            Get A Free Quote
-          </button></Link>
-           <Link to ="/services">
-          <button type="button" className="text-black bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-lg sm:text-2xl px-8 sm:px-12 lg:px-16 py-3 sm:py-5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">
-            Our Services
-          </button></Link>
+          <Link to="/contact">
+            <button 
+              type="button" 
+              className="bg-[#50C878] text-white border hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-[#50C878] font-bold rounded-full text-lg sm:text-2xl px-8 sm:px-12 lg:px-16 py-3 sm:py-5 mr-2 mb-2"
+            >
+              Get A Free Quote
+            </button>
+          </Link>
+          <Link to="/services">
+            <button 
+              type="button" 
+              className="bg-[#50C878] text-white border  hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-[#50C878] font-bold rounded-full text-lg sm:text-2xl px-8 sm:px-12 lg:px-16 py-3 sm:py-5 mr-2 mb-2"
+            >
+              Our Services
+            </button>
+          </Link>
         </div>
       </div>
     </div>
