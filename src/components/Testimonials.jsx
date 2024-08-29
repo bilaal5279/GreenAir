@@ -35,7 +35,7 @@ const Testimonials = () => {
         </figure>
       </div>
       <div className="rounded-lg shadow-lg dark:border-gray-700 mb-6 mt-6 mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl flex flex-col" style={{ boxShadow: '0 -4px 8px rgba(0, 0, 0, 0.2)', minHeight: '20rem' }}>
-        <figure className="flex flex-col flex-grow justify-between p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
+        <figure className="flex flex-col flex-grow justify-between p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r ">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 ">
             <h3 className="text-lg font-semibold text-gray-900 ">A Perfect Choice</h3>
             <p className="my-4">"I had a great experience with Asif (Green Air)  during the installation of my AC units. His professionalism and helpful demeanor stood out. Asif demonstrated expertise, ensuring a smooth process. Overall, my satisfaction with his service is very good. I would highly recommend him
