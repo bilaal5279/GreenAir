@@ -17,7 +17,7 @@ const NavBar = () => {
         <div className="md:hidden">
           <MenuOutlined onClick={showMenu} className="cursor-pointer text-4xl" />
         </div>
-        <ul className="hidden md:flex font-light gap-8  text-bold mt-2">
+        <ul className="hidden md:flex font-light gap-8 text-bold mt-2">
           <li>
             <Link to="/" className="hover:underline hover:opacity-50">Home</Link>
           </li>

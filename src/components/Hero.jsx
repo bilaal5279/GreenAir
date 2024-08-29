@@ -15,7 +15,7 @@ const Hero = () => {
           <Link to="/contact">
             <button 
               type="button" 
-              className="bg-[#50C878] text-white border hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-[#50C878] font-bold rounded-full text-lg sm:text-2xl px-8 sm:px-12 lg:px-16 py-3 sm:py-5 mr-2 mb-2"
+              className="bg-[#50C878] text-white  hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-[#50C878] font-bold rounded-full text-lg sm:text-2xl px-8 sm:px-12 lg:px-16 py-3 sm:py-5 mr-2 mb-2"
             >
               Get A Free Quote
             </button>
@@ -23,7 +23,7 @@ const Hero = () => {
           <Link to="/services">
             <button 
               type="button" 
-              className="bg-[#50C878] text-white border  hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-[#50C878] font-bold rounded-full text-lg sm:text-2xl px-8 sm:px-12 lg:px-16 py-3 sm:py-5 mr-2 mb-2"
+              className="bg-[#50C878] text-white   hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-[#50C878] font-bold rounded-full text-lg sm:text-2xl px-8 sm:px-12 lg:px-16 py-3 sm:py-5 mr-2 mb-2"
             >
               Our Services
             </button>

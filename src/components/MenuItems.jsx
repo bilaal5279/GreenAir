@@ -1,23 +1,48 @@
-import { Close } from '@mui/icons-material'
-import React from 'react'
-import { Link } from "react-router-dom";
-const MenuItems = ({showMenu,active}) => {
-  const gradientStyle = {
-    background:
-      'white',
-    color: 'black',
-  };
-  return (
-    <div className='text-bold z-10'> 
-            <ul style={gradientStyle} className={active ?  ' text-bold flex-col flex items-center fixed inset-0 left-1/4 uppercase  bg-opacity-30 	bg-blur-20 gap-8 p-8 justify-center md:hidden'  : 'hidden' }>
-            <Close onClick={showMenu} className="cursor-pointer"/>
-            <li ><Link to ="/" className="hover:underline">Home</Link></li>
-            <li><Link to ="/services" className="hover:underline">Services</Link></li>
-            <li><Link to ="/Work" className="hover:underline">Our work</Link></li>
-            <li><Link to ="/Contact" className="hover:underline">Contact</Link></li>
-          </ul>
-          </div>
-  )
-}
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-export default MenuItems
+const MenuItems = ({ showMenu, active }) => {
+  return (
+    <div
+      className={
+        active
+          ? 'fixed top-0 left-0 w-full h-full bg-white ease-in-out duration-300 z-10'
+          : 'fixed top-0 left-[-100%] w-full h-full bg-white ease-in-out duration-300 z-10'
+      }
+    >
+      <div className="flex justify-end p-1">
+        <button onClick={showMenu} className="text-black text-3xl font-semibold">
+          &times;
+        </button>
+      </div>
+      <ul className="flex flex-col items-center gap-6 text-black text-xl font-medium mt-10">
+        <li className="w-full text-center py-1">
+          <Link to="/" onClick={showMenu}>
+            Home
+          </Link>
+          <div className="w-3/4 h-[1px] bg-gray-300 mx-auto my-4"></div>
+        </li>
+        <li className="w-full text-center py-1">
+          <Link to="/Services" onClick={showMenu}>
+            Air conditioning
+          </Link>
+          <div className="w-3/4 h-[1px] bg-gray-300 mx-auto my-4"></div>
+        </li>
+        <li className="w-full text-center py-1">
+          <Link to="/Work" onClick={showMenu}>
+            Projects
+          </Link>
+          <div className="w-3/4 h-[1px] bg-gray-300 mx-auto my-4"></div>
+        </li>
+        <li className="w-full text-center py-1">
+          <Link to="/Contact" onClick={showMenu}>
+            Contact
+          </Link>
+          <div className="w-3/4 h-[1px] bg-gray-300 mx-auto my-4"></div>
+        </li>
+      </ul>
+    </div>
+  );
+};
+
+export default MenuItems;
