@@ -24,13 +24,13 @@ const MenuItems = ({ showMenu, active }) => {
         </li>
         <li className="w-full text-center py-1">
           <Link to="/Services" onClick={showMenu}>
-            Air conditioning
+            Our Services
           </Link>
           <div className="w-3/4 h-[1px] bg-gray-300 mx-auto my-4"></div>
         </li>
         <li className="w-full text-center py-1">
           <Link to="/Work" onClick={showMenu}>
-            Projects
+            About Us
           </Link>
           <div className="w-3/4 h-[1px] bg-gray-300 mx-auto my-4"></div>
         </li>

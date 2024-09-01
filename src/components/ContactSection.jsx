@@ -13,7 +13,7 @@ const ContactSection = () => {
           <Link to="/contact">
             <button
               type="button"
-              className="mt-12 text-white bg-[#50C878] border border-gray-300 focus:outline-none hover:bg-gray-800 focus:ring-4 focus:ring-gray-200 font-bold rounded-full text-lg md:text-2xl px-4 sm:px-6 lg:px-8 py-2 sm:py-3 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+              className="mt-12 text-white bg-[#50C878] border border-gray-300 focus:outline-none  focus:ring-4  font-bold rounded-full text-lg md:text-2xl px-4 sm:px-6 lg:px-8 py-2 sm:py-3 "
             >
               Contact Us
             </button>
