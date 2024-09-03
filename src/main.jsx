@@ -11,6 +11,7 @@ import Work from "./pages/Work";
 import ContactUs from "./pages/ContactUs";
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
     element: <ContactUs/>,
   },
 ]);
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
