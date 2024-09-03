@@ -1,6 +1,7 @@
 import App from '../App';
 import ContactSection from '../components/ContactSection';
 import OurServices from '../components/OurServices';
+import Footer from '../components/Footer';
 
 function Services() {
   return (
@@ -8,6 +9,7 @@ function Services() {
     <App/>
     <OurServices/>
     <ContactSection/>
+    <Footer/>
     </>
   );
 }
