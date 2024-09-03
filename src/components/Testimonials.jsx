@@ -21,7 +21,7 @@ const Testimonials = () => {
       <div className="rounded-lg shadow-lg dark:border-gray-700 mb-6 mt-6 mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl flex flex-col" style={{ boxShadow: '0 -4px 8px rgba(0, 0, 0, 0.2)', minHeight: '20rem' }}>
         <figure className="flex flex-col flex-grow justify-between p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r ">
           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 ">
-            <h3 className="text-lg font-semibold text-gray-900 ">Great product with excellent support</h3>
+            <h3 className="text-lg font-semibold text-gray-900 ">Great AC With Excellent Support</h3>
             <p className="my-4">"Very pleased with my new ac system. Asif explained everything properly and in detail. His team on installation day were also very good. Installation was very smooth, clean and tidy. Would recommend. Book well in advance as he gets busy.
             "</p>
           </blockquote>
