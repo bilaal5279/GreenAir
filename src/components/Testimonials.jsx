@@ -43,7 +43,7 @@ const Testimonials = () => {
           </blockquote>
           <figcaption className="flex items-center justify-center space-x-3">
             <img className="rounded-full w-9 h-9" src="https://lh3.googleusercontent.com/a-/ALV-UjVURJRjVcVOH94xbaOn_xHwzph_iopngL1aQkwtw-ssE9YAUtI=w60-h60-p-rp-mo-br100" alt="profile picture" />
-            <div className="space-y-0.5 font-medium dark:text-white text-left">
+            <div className="space-y-0.5 font-medium dark:text-black text-left">
               <div>Eram Farooq</div>
               <div className="text-sm text-gray-500 ">Residential Installation</div>
             </div>
